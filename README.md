@@ -1,5 +1,6 @@
 # Desafío
 Proyecto realizado para una prueba técnica para el puesto de Diseñador y Maquetador Web.
+El mismo fue diseñado en Figma y desarrollado en React JS.
 
 ## Diseño - Figma
 https://www.figma.com/file/QxavIwdjz8frGYA6RPMnZW/Desaf%C3%ADo?node-id=0%3A1
