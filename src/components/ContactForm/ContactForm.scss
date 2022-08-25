@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.contactForm{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h2{
+        font-family: 'Source Code Pro', monospace;
+        color: #696969;
+        width: 248px;
+        font-size: 24px;
+        margin: 10px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .contactForm__select, .contactForm__input{
+        width: 331px;
+        height: 64.62px;
+        border: 1px solid #696969;
+        border-radius: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Source Code Pro', monospace;
+        color: #696969;
+        font-size: 20px;
+    }
+
+    .contactForm__select{
+        height: 69px;
+    }
+
+    .contactForm__textarea{
+        width: 331px;
+        height: 279.23px;
+        border: 1px solid #696969;
+        border-radius: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Source Code Pro', monospace;
+        color: #696969;
+        font-size: 20px;
+    }
+}
+
+.contactForm__button{
+    border-radius: 20px;
+    border: none;
+    background-color: #265E6C;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1340px) {
+
+    .contactForm__inputs{
+        grid-template-columns: 4fr 4fr;
+    }
+
+    .contactForm__inputs-textarea{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .contactForm{
+        .contactForm__input{
+            width: 590px;
+        }
+        .contactForm__select{
+            width: 590px;
+        }
+        .contactForm__textarea{
+            width: 1200px;
+        }
+    }
+    
+
+}

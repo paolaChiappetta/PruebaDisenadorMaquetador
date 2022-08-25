@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+.coverImage{
+    background-image: url('../../../public/coverImage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 215px;
+    left: 0px;
+    top: 48px;
+    color: #FFFFFF;
+    
+
+    h1{
+        font-family: 'Source Code Pro', monospace;
+        font-style: normal;
+        font-weight: bolder;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        font-size: 20px;
+        margin-left: 19px;
+        padding-top: 30px;
+
+        span{
+            display: block;
+            color: #F778B9;
+        }
+    }
+
+    h4{
+        font-family: 'Source Code Pro', monospace;
+        font-size: 16px;
+        margin: 0px;
+        margin-left: 19px;
+
+        span {
+            display: block;
+        }
+    }
+
+    p{
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        margin-left: 19px;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+
+    .coverImage{
+        height: 313px;
+
+        h1{
+            padding-top: 50px;
+            font-size: 25px;
+            line-height: 25px;
+        }
+
+        h4{
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        p{
+            font-size: 12px;
+            line-height: 20px;
+            width: 500px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .coverImage{
+        height: 413px;
+
+        h1{
+            padding-top: 70px;
+            font-size: 35px;
+            line-height: 35px;
+        }
+
+        h4{
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            width: 500px;
+        }
+
+        
+    }
+
+}
+
+@media screen and (min-width: 1340px) {
+
+    .coverImage{
+        height: 543px;
+
+        h1{
+            padding-top: 100px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        h4{
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            width: 500px;
+        }
+    }
+
+}

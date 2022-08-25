@@ -1,0 +1,47 @@
+.separator{
+    padding: 25px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .separator{
+        img{
+            width: 650px;
+            height: 9px;
+        }
+    }
+}
+
+@media screen and (min-width: 1050px) {
+
+    .separator{
+        img{
+            width: 1000px;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .separator{
+        img{
+            width: 1350px;
+        }
+    }
+}
+
+@media screen and (min-width: 1750px) {
+
+    .separator{
+        img{
+            width: 1700px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.navBar {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
+    margin-top: 10px;
+
+    button{
+        background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+   
+}
+
+.navBar__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar__logo:hover{
+    animation: rotateYMove 0.5s;
+    animation-iteration-count: infinite;
+    animation-duration: 0.9s;
+    animation-delay: 0s;
+}
+
+@keyframes rotateYMove 
+{
+    0%{
+        transform: rotateY(0deg) scale(1.5);
+    }
+    50%{
+        transform: rotateY(180deg) scale(1.5);
+    }
+    100%{
+        transform: rotateY(0deg) scale(1.5);
+    }
+}

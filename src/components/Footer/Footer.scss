@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+.footer{
+    background-color: #265E6C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .footer__logo{
+    margin: 25px;
+    }
+    
+
+    p{
+        font-family: 'Merriweather', serif;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FFFFFF;
+        width: 325px;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0px;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+        color: #FFFFFF;
+    }
+
+    li{
+        margin: 10px;
+    }
+}
+
+
+.footer__logo:hover
+{
+    animation: circleMove 0.5s;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+}
+
+@keyframes circleMove 
+{
+    0%{
+        transform: translate(0px, 5px);
+    }
+    5%{
+        transform: translate(1px, 4px);
+    }
+    10%{
+        transform: translate(2px, 3px);
+    }
+    15%{
+        transform: translate(3px, 2px);
+    }
+    20%{
+        transform: translate(4px, 1px);
+    }
+    25%{
+        transform: translate(5px, 0px);
+    }
+    30%{
+        transform: translate(4px, -1px);
+    }
+    35%{
+        transform: translate(3px, -2px);
+    }
+    40%{
+        transform: translate(2px, -3px);
+    }
+    45%{
+        transform: translate(1px, -4px);
+    }
+    50%{
+        transform: translate(0px, -5px);
+    }
+    55%{
+        transform: translate(-1px, -4px);
+    }
+    60%{
+        transform: translate(-2px, -3px);
+    }
+    65%{
+        transform: translate(-3px, -2px);
+    }
+    70%{
+        transform: translate(-4px, -1px);
+    }
+    75%{
+        transform: translate(-5px, 0px);
+    }
+    80%{
+        transform: translate(-4px, 1px);
+    }
+    85%{
+        transform: translate(-3px, 2px);
+    }
+    90%{
+        transform: translate(-2px, 3px);
+    }
+    95%{
+        transform: translate(-1px, 4px);
+    }
+    100%{
+        transform: translate(0px, 5px);
+    }
+}
+
+
+@media screen and (min-width: 1340px) {
+
+    .footer__logoAndText{
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+    } 
+
+    .footer__options{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    } 
+
+    .footer__logoContainer, .footer__textContainer{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .footer{
+        p{
+            width: 454px;
+        }
+
+        li{
+            margin: 5px;
+        }
+
+        .footer__logo{
+            margin: 55px;
+            }
+    }
+
+    
+
+}

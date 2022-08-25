@@ -1,0 +1,21 @@
+.newsContainer{
+    display: grid;
+    grid-template-rows: 6fr;
+    grid-template-columns: 8fr;
+}
+
+@media screen and (min-width: 700px) {
+
+    .newsContainer{
+        grid-template-rows: 3fr;
+        grid-template-columns: 4fr 4fr;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+
+    .newsContainer{
+        grid-template-rows: 2fr;
+        grid-template-columns: 2.66fr 2.66fr 2.66fr;
+    }
+}
